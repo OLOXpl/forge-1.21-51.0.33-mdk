@@ -1,3 +1,14 @@
 {
-  "item.testmod.oloxite": "Oloxite Ore"
+  "item.testmod.opal": "Opal",
+  "item.testmod.raw_opal": "Raw Opal",
+  "item.testmod.sapphire": "Sapphire",
+  "item.testmod.raw_sapphire": "Raw Sapphire",
+
+  "block.testmod.opal_block": "Opal Block",
+  "block.testmod.raw_opal_block": "Block of Raw Opal",
+  "block.testmod.sapphire_block": "Sapphire Block",
+  "block.testmod.raw_sapphire_block": "Block of Raw Sapphire",
+
+  "creativetab.testmod.oloxs_items_tab": "OLOX's Items",
+  "creativetab.testmod.oloxs_blocks_tab": "OLOX's Blocks"
 }

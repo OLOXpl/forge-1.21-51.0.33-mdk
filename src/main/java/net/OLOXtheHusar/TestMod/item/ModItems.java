@@ -13,7 +13,16 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, TestMod.MOD_ID);
 
 
-    public static final RegistryObject<Item> OLOXITE = ITEMS.register("oloxite",
+    public static final RegistryObject<Item> OPAL = ITEMS.register("opal",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> RAW_OPAL = ITEMS.register("raw_opal",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> RAW_SAPPHIRE = ITEMS.register("raw_sapphire",
             () -> new Item(new Item.Properties()));
 
 

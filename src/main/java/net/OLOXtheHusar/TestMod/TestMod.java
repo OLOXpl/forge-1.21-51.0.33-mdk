@@ -1,6 +1,8 @@
 package net.OLOXtheHusar.TestMod;
 
 import com.mojang.logging.LogUtils;
+import net.OLOXtheHusar.TestMod.block.ModBlocks;
+import net.OLOXtheHusar.TestMod.item.ModCreativeModeTab;
 import net.OLOXtheHusar.TestMod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -32,7 +34,10 @@ public class TestMod {
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTab.register(modEventBus);
+
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -46,10 +51,6 @@ public class TestMod {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.OLOXITE);
-        }
-
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
