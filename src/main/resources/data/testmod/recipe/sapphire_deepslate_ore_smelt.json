@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "testmod:sapphire_deepslate_ore_block"
+  },
+  "result": {
+    "id": "testmod:sapphire"
+  }
+}

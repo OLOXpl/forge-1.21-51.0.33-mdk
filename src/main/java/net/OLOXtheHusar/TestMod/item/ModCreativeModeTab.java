@@ -21,6 +21,7 @@ public class ModCreativeModeTab {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.OPAL.get());
                         output.accept(ModItems.SAPPHIRE.get());
+
                         output.accept(ModItems.RAW_OPAL.get());
                         output.accept(ModItems.RAW_SAPPHIRE.get());
 
@@ -33,11 +34,13 @@ public class ModCreativeModeTab {
                     .title(Component.translatable("creativetab.testmod.oloxs_blocks_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.OPAL_BLOCK.get());
-                        output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                         output.accept(ModBlocks.RAW_OPAL_BLOCK.get());
-                        output.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
                         output.accept(ModBlocks.OPAL_ORE_BLOCK.get());
                         output.accept(ModBlocks.OPAL_DEEPSLATE_ORE_BLOCK.get());
+
+                        output.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
+                        output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+                        output.accept(ModBlocks.SAPPHIRE_DEEPSLATE_ORE_BLOCK.get());
                     }).build());
 
 
