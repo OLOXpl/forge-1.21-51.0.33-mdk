@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "testmod:raw_opal_block",
+    "testmod:opal_block",
+    "testmod:opal_ore_block",
+    "testmod:opal_deepslate_ore_block"
+  ]
+}

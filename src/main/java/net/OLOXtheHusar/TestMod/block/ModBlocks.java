@@ -1,6 +1,5 @@
 package net.OLOXtheHusar.TestMod.block;
 
-import com.google.common.eventbus.EventBus;
 import net.OLOXtheHusar.TestMod.TestMod;
 import net.OLOXtheHusar.TestMod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -27,6 +26,14 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(3f).requiresCorrectToolForDrops()));
 
+    public static final RegistryObject<Block> OPAL_ORE_BLOCK = registerBlock("opal_ore_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(3f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> OPAL_DEEPSLATE_ORE_BLOCK = registerBlock("opal_deepslate_ore_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops()));
+
     public static final RegistryObject<Block> SAPPHIRE_BLOCK = registerBlock("sapphire_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
@@ -34,6 +41,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> RAW_SAPPHIRE_BLOCK = registerBlock("raw_sapphire_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(3f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> SAPPHIRE_DEEPSLATE_ORE_BLOCK = registerBlock("sapphire_deepslate_ore_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(5f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

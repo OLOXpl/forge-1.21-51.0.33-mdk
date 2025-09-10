@@ -6,8 +6,11 @@
 
   "block.testmod.opal_block": "Opal Block",
   "block.testmod.raw_opal_block": "Block of Raw Opal",
+  "block.testmod.opal_ore_block": "Opal Ore",
+  "block.testmod.opal_deepslate_ore_block": "Deepslate Opal Ore",
   "block.testmod.sapphire_block": "Sapphire Block",
   "block.testmod.raw_sapphire_block": "Block of Raw Sapphire",
+  "block.testmod.sapphire_deepslate_ore_block": "Deepslate Sapphire Ore",
 
   "creativetab.testmod.oloxs_items_tab": "OLOX's Items",
   "creativetab.testmod.oloxs_blocks_tab": "OLOX's Blocks"

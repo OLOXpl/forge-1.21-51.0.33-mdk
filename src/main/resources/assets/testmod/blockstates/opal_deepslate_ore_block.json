@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "testmod:block/opal_deepslate_ore_block"
+    }
+  }
+}

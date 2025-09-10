@@ -36,6 +36,8 @@ public class ModCreativeModeTab {
                         output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                         output.accept(ModBlocks.RAW_OPAL_BLOCK.get());
                         output.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
+                        output.accept(ModBlocks.OPAL_ORE_BLOCK.get());
+                        output.accept(ModBlocks.OPAL_DEEPSLATE_ORE_BLOCK.get());
                     }).build());
 
 
